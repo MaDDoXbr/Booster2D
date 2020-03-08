@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="101" viewBox="0 0 42 101">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: aqua;
+      }
+    </style>
+  </defs>
+  <title>Asset 5</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Rocket">
+      <g>
+        <rect class="cls-1" y="37" width="42" height="64"/>
+        <polygon class="cls-1" points="21 0 0.215 36 41.785 36 21 0"/>
+      </g>
+    </g>
+  </g>
+</svg>

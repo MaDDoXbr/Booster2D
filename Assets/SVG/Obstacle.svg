@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79" height="80" viewBox="0 0 79 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f03dfb;
+      }
+    </style>
+  </defs>
+  <title>Asset 1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Obstacle">
+      <rect class="cls-1" width="79" height="80"/>
+    </g>
+  </g>
+</svg>

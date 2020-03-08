@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="118" viewBox="0 0 118 118">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Asset 9</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Btn_Right">
+      <g>
+        <rect width="118" height="118"/>
+        <polygon class="cls-1" points="57.151 15.918 56.719 15.918 56.719 36.691 20.08 36.691 20.08 81.309 56.719 81.309 56.719 102.082 57.151 102.082 99 58.997 57.151 15.918"/>
+      </g>
+    </g>
+  </g>
+</svg>

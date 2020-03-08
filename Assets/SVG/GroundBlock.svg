@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="125" viewBox="0 0 200 125">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d39867;
+      }
+    </style>
+  </defs>
+  <title>Asset 6</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="GroundBlock">
+      <rect class="cls-1" width="200" height="125"/>
+    </g>
+  </g>
+</svg>
