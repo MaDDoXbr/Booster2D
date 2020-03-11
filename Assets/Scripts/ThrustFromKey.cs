@@ -10,13 +10,12 @@ public class ThrustFromKey : MonoBehaviour
     public FxHandler FX;
     
     private Rigidbody2D _rb;
-    //public Vector3 force; //(0,1,0)
     public float ThrustForce = 10f;
     public KeyCode ActionKey = KeyCode.Space;
-    private bool _hasFxHandler; 
+    //private bool _hasFxHandler; 
     private void Awake()
     {
-        _hasFxHandler = FX != null;
+        //_hasFxHandler = FX != null;
         _rb = GetComponent<Rigidbody2D>();
     }
 
@@ -26,11 +25,13 @@ public class ThrustFromKey : MonoBehaviour
         if (Input.GetKey(ActionKey))
         {
             _rb.AddRelativeForce(ThrustForce * Vector3.up * Time.deltaTime);
-            if (_hasFxHandler)
-                FX.Play();
+            gameObject.Send<IFX>(_ => _.Play(), true);
+/*          if (_hasFxHandler)
+                FX.Play(); */
         } else {
-            if (_hasFxHandler)
-                FX.Stop();
+//            if (_hasFxHandler)
+//                FX.Stop();
+            gameObject.Send<IFX>(_ => _.Stop(), true);
         }
     }
 }

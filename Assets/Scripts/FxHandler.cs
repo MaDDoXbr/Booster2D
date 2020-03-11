@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class FxHandler : MonoBehaviour
+public class FxHandler : MonoBehaviour, IFX
 {
     public ParticleSystem Particle;
     public AudioSource Audio;
@@ -19,24 +19,39 @@ public class FxHandler : MonoBehaviour
 
     void Start()
     {
-        if (PlayOnStart)
-            Play();
+//        if (PlayOnStart)
+//            //gameObject.Send<IFX>(_=>_.Play());
+//            ((IFX) this).Play();
     }
 
-    public void Play()
+    IEnumerable IFX.Play()
     {
-        if (HasAudioSource && !Audio.isPlaying)
-            Audio.Play();
+        Debug.Log("Play");
         if (HasParticleSystem && !Particle.isPlaying)
             Particle.Play();
+        if (HasAudioSource && Audio.gameObject.activeInHierarchy && !Audio.isPlaying)
+            Audio.Play();
+        yield return null;
     }
 
-    public void Stop()
+    IEnumerable IFX.Stop()
     {
+        Debug.Log("Stop");
         if (HasParticleSystem && Particle.isPlaying)
             Particle.Stop();
-        if (HasAudioSource && Audio.isPlaying)
+        if (HasAudioSource && Audio.gameObject.activeInHierarchy && Audio.isPlaying)
             Audio.Stop();
+        yield return null;
     }
-    
+
+    public ParticleSystem GetParticle()
+    {
+        return Particle;
+    }
+
+    public AudioSource GetAudio()
+    {
+        return Audio;
+    }
+
 }
