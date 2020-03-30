@@ -11,11 +11,9 @@ GameObject:
   - component: {fileID: 6562816303995103417}
   - component: {fileID: 763164715712102365}
   - component: {fileID: 5327985854980661444}
-  - component: {fileID: 7198653995576144774}
-  - component: {fileID: 8634484686135790722}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: Scenery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,41 +109,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.79, y: 0.8}
   m_EdgeRadius: 0
---- !u!320 &7198653995576144774
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 912364963484489728}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 1600fbf32ecb34247b6fb3c8e1e8a241, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 1
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 6903332744427932847, guid: 1600fbf32ecb34247b6fb3c8e1e8a241, type: 2}
-    value: {fileID: 8634484686135790722}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &8634484686135790722
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 912364963484489728}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
