@@ -3254,7 +3254,7 @@ PrefabInstance:
     - target: {fileID: -8251998125202122423, guid: c805e5be889e3724595dcd767de82b7e,
         type: 3}
       propertyPath: _foldout
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8251998125202122423, guid: c805e5be889e3724595dcd767de82b7e,
         type: 3}

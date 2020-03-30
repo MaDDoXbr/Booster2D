@@ -233,7 +233,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.2.5
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 3992654898585853728}
@@ -362,7 +362,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.2.5
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 3992654898585853728}
@@ -728,7 +728,7 @@ MonoBehaviour:
   _showSettings: 1
   _actionsFoldout: 1
   _ignorePause: 0
-  _listeningRange: 2
+  _listeningRange: 0
   _listeningTarget: {fileID: 7901432374087981879}
   _listeningList: {fileID: 0}
 --- !u!114 &2574808000783091352
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.2.5
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 3992654898585853728}
@@ -1545,7 +1545,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.2.5
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 3992654898585853728}
@@ -2020,7 +2020,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.2.5
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 3992654898585853728}
